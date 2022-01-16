@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.18c20adf.css",
+    "main.js": "/react-portfolio/static/js/main.b92b1d7e.js",
+    "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/horiseon.jpg": "/react-portfolio/static/media/horiseon.d057095a8771c563cd26.jpg",
+    "static/media/lotr-quotes.png": "/react-portfolio/static/media/lotr-quotes.00908b2a5c781f564b93.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.031cdd16a505647e9c0e.png",
+    "static/media/DragonsDen.png": "/react-portfolio/static/media/DragonsDen.c2dd1083e0dff065549c.png",
+    "static/media/Resume-Varsha.pdf": "/react-portfolio/static/media/Resume-Varsha.990d8558fa5a63eb7337.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.18c20adf.css.map": "/react-portfolio/static/css/main.18c20adf.css.map",
+    "main.b92b1d7e.js.map": "/react-portfolio/static/js/main.b92b1d7e.js.map",
+    "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18c20adf.css",
+    "static/js/main.b92b1d7e.js"
+  ]
+}
