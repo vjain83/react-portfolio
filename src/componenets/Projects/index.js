@@ -19,7 +19,7 @@ function Projects() {
                     alt="Weather Dashboard"
                     className="img-thumbnail mx-1"
                 />
-                <p><a href="https://github.com/vjain83/weather-dashboard" target="_blank" rel="noreferrer">Weather-dashboard github link</a></p>
+                <p><a href="https://github.com/vjain83/weather-dashboard" target="_blank" rel="noreferrer"> </a>Weather-dashboard github link</p>
             </div>
             <div>
                 <img

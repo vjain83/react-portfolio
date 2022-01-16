@@ -3,32 +3,34 @@ import React from "react";
 function Footer() {
     return (
         <footer className="footer">
-            {/* <div>
+
+            <div>
                 <a
                     href="https://github.com/vjain83"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <img
-                        // src={require("../../assets/logos/github-logo.png")}
+                        src={require("../../assets/images/github.png")}
                         alt="Github"
                         className="logo"
                     ></img>
                 </a>
-            </div> */}
-            {/* <div>
+            </div>
+            <div>
                 <a
-                    // href="https://www.linkedin.com/in/varshajain/"
+                    href="https://csvarshajain@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <img
-                        // src={require("../../assets/logos/linkedin-logo.png")}
-                        alt="LinkedIn"
+                        src={require("../../assets/images/gmail.png")}
+                        alt="gmail"
                         className="logo"
                     ></img>
                 </a>
-            </div> */}
+            </div>
+
         </footer>
     );
 }

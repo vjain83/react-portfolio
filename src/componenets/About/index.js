@@ -21,17 +21,18 @@ function About() {
                     I am a full stack web developer looking to build a more
                     intuitive user experience on the web. I recently earned
                     a certificate in full stack development from the
-                    University of Texas bootcamp, with newly developed
-                    skills in JavaScript, CSS, React.js, and responsive web
-                    design. I am known as an innovative problem solver
-                    passionate about developing apps, with a focus on
-                    mobile-first design and development. With each project,
-                    my aim is to best engage my audience for an impactful
-                    user experience.
+                    University of Toronto bootcamp, with newly developed
+                    skills in JavaScript, CSS, React.js, Nodejs, MERN and responsive web
+                    design.
+                </p>
+                <p>
+                    I am very enthusiastic and hard working person. I am always ready to give my
+                    full effort ot achieve the desired result. The coding bootcamp is all new field to explore
+                    and I am hoping to have spectular future in the software industry.
                 </p>
 
             </div>
-        </section>
+        </section >
     );
 }
 
