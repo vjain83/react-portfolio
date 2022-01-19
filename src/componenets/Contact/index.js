@@ -17,24 +17,29 @@ function ContactForm() {
             if (!isValid) {
                 setErrorMessage('Your email is invalid.');
 
+            }
+        } else {
+            if (!e.target.value.length) {
+                setErrorMessage(`${e.target.name} is required.`);
+                console.log(`${e.target.name}`)
             } else {
-                if (!e.target.value.length) {
-                    setErrorMessage(`${e.target.name} is required.`);
-                } else {
-                    setErrorMessage('');
-                }
+                setErrorMessage('');
             }
         }
-        console.log('errorMessage', errorMessage);
+        // console.log('errorMessage', errorMessage);
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
+            console.log('Handle Form', formState);
         }
     }
+    // console.log(formState);
 
-    function handleSubmit(e) {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formState);
-    }
+        if (!errorMessage) {
+            console.log('Submit Form', formState);
+        }
+    };
 
     return (
         <section>
@@ -52,13 +57,13 @@ function ContactForm() {
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
-                <button type="submit">Submit</button>
             </form>
+            {errorMessage && (
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
+            <button type="submit">Submit</button>
         </section>
 
     )

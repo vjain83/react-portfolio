@@ -11,7 +11,7 @@ function Projects() {
                     alt="Horiseon"
                     className="img-thumbnail mx-1"
                 />
-                <p> <a href="https://github.com/vjain83/horiseon" target="_blank" rel="noreferrer"> Horiseon github link</a></p>
+                <p> <a href="https://github.com/vjain83/horiseon" target="_blank" rel="noreferrer"> Horiseon</a></p>
             </div>
             <div>
                 <img
@@ -19,7 +19,7 @@ function Projects() {
                     alt="Weather Dashboard"
                     className="img-thumbnail mx-1"
                 />
-                <p><a href="https://github.com/vjain83/weather-dashboard" target="_blank" rel="noreferrer"> </a>Weather-dashboard github link</p>
+                <p><a href="https://github.com/vjain83/weather-dashboard" target="_blank" rel="noreferrer">Weather-dashboard</a></p>
             </div>
             <div>
                 <img
@@ -27,7 +27,7 @@ function Projects() {
                     alt="Dragon Den"
                     className="img-thumbnail mx-1"
                 />
-                <p> <a href="https://github.com/vjain83/dragons-den" target="_blank" rel="noreferrer">DragonsDen github link</a></p>
+                <p> <a href="https://github.com/vjain83/dragons-den" target="_blank" rel="noreferrer">DragonsDen</a></p>
             </div>
             <div>
                 <img
@@ -35,7 +35,7 @@ function Projects() {
                     alt="lotr"
                     className="img-thumbnail mx-1"
                 />
-                <p><a href="https://github.com/flovelace/lord-of-the-rings-quote-generator" target="_blank" rel="noreferrer">lotr github link</a></p>
+                <p><a href="https://github.com/flovelace/lord-of-the-rings-quote-generator" target="_blank" rel="noreferrer">lotr</a></p>
             </div>
         </div>
     )
